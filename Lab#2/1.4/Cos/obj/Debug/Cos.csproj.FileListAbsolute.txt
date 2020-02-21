@@ -1,0 +1,7 @@
+D:\Projects\Lab#2\Cos\Cos\obj\Debug\Cos.csprojAssemblyReference.cache
+D:\Projects\Lab#2\Cos\Cos\obj\Debug\Cos.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#2\Cos\Cos\bin\Debug\Cos.exe.config
+D:\Projects\Lab#2\Cos\Cos\bin\Debug\Cos.exe
+D:\Projects\Lab#2\Cos\Cos\bin\Debug\Cos.pdb
+D:\Projects\Lab#2\Cos\Cos\obj\Debug\Cos.exe
+D:\Projects\Lab#2\Cos\Cos\obj\Debug\Cos.pdb

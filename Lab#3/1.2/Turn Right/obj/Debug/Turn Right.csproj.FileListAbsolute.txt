@@ -1,0 +1,7 @@
+D:\Projects\Turn Right\Turn Right\obj\Debug\Turn Right.csprojAssemblyReference.cache
+D:\Projects\Turn Right\Turn Right\obj\Debug\Turn Right.csproj.CoreCompileInputs.cache
+D:\Projects\Turn Right\Turn Right\bin\Debug\Turn Right.exe.config
+D:\Projects\Turn Right\Turn Right\bin\Debug\Turn Right.exe
+D:\Projects\Turn Right\Turn Right\bin\Debug\Turn Right.pdb
+D:\Projects\Turn Right\Turn Right\obj\Debug\Turn Right.exe
+D:\Projects\Turn Right\Turn Right\obj\Debug\Turn Right.pdb

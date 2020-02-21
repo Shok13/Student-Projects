@@ -1,0 +1,7 @@
+D:\Projects\Exchange\Exchange\bin\Release\Exchange.exe.config
+D:\Projects\Exchange\Exchange\bin\Release\Exchange.exe
+D:\Projects\Exchange\Exchange\bin\Release\Exchange.pdb
+D:\Projects\Exchange\Exchange\obj\Release\Exchange.csprojAssemblyReference.cache
+D:\Projects\Exchange\Exchange\obj\Release\Exchange.csproj.CoreCompileInputs.cache
+D:\Projects\Exchange\Exchange\obj\Release\Exchange.exe
+D:\Projects\Exchange\Exchange\obj\Release\Exchange.pdb

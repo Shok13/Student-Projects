@@ -1,0 +1,7 @@
+D:\Projects\Lab#6\1st_ind\1st_ind\bin\Debug\1st_ind.exe.config
+D:\Projects\Lab#6\1st_ind\1st_ind\bin\Debug\1st_ind.exe
+D:\Projects\Lab#6\1st_ind\1st_ind\bin\Debug\1st_ind.pdb
+D:\Projects\Lab#6\1st_ind\1st_ind\obj\Debug\1st_ind.csprojAssemblyReference.cache
+D:\Projects\Lab#6\1st_ind\1st_ind\obj\Debug\1st_ind.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#6\1st_ind\1st_ind\obj\Debug\1st_ind.exe
+D:\Projects\Lab#6\1st_ind\1st_ind\obj\Debug\1st_ind.pdb

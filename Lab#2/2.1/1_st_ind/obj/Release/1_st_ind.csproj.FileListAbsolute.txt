@@ -1,0 +1,6 @@
+D:\Projects\1_st_ind\1_st_ind\bin\Release\1_st_ind.exe.config
+D:\Projects\1_st_ind\1_st_ind\bin\Release\1_st_ind.exe
+D:\Projects\1_st_ind\1_st_ind\bin\Release\1_st_ind.pdb
+D:\Projects\1_st_ind\1_st_ind\obj\Release\1_st_ind.csproj.CoreCompileInputs.cache
+D:\Projects\1_st_ind\1_st_ind\obj\Release\1_st_ind.exe
+D:\Projects\1_st_ind\1_st_ind\obj\Release\1_st_ind.pdb

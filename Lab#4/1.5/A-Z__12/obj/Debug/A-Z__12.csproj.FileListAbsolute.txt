@@ -1,0 +1,6 @@
+E:\Projects\A-Z__12\A-Z__12\bin\Debug\A-Z__12.exe.config
+E:\Projects\A-Z__12\A-Z__12\bin\Debug\A-Z__12.exe
+E:\Projects\A-Z__12\A-Z__12\bin\Debug\A-Z__12.pdb
+E:\Projects\A-Z__12\A-Z__12\obj\Debug\A-Z__12.csprojAssemblyReference.cache
+E:\Projects\A-Z__12\A-Z__12\obj\Debug\A-Z__12.exe
+E:\Projects\A-Z__12\A-Z__12\obj\Debug\A-Z__12.pdb

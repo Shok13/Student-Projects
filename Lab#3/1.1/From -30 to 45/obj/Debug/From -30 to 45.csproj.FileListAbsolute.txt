@@ -1,0 +1,7 @@
+D:\Projects\From -30 to 45\From -30 to 45\bin\Debug\From -30 to 45.exe.config
+D:\Projects\From -30 to 45\From -30 to 45\bin\Debug\From -30 to 45.exe
+D:\Projects\From -30 to 45\From -30 to 45\bin\Debug\From -30 to 45.pdb
+D:\Projects\From -30 to 45\From -30 to 45\obj\Debug\From -30 to 45.csprojAssemblyReference.cache
+D:\Projects\From -30 to 45\From -30 to 45\obj\Debug\From -30 to 45.csproj.CoreCompileInputs.cache
+D:\Projects\From -30 to 45\From -30 to 45\obj\Debug\From -30 to 45.exe
+D:\Projects\From -30 to 45\From -30 to 45\obj\Debug\From -30 to 45.pdb

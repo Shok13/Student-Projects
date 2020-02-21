@@ -1,0 +1,7 @@
+D:\Projects\3rd_integer\3rd_integer\bin\Release\3rd_integer.exe.config
+D:\Projects\3rd_integer\3rd_integer\bin\Release\3rd_integer.exe
+D:\Projects\3rd_integer\3rd_integer\bin\Release\3rd_integer.pdb
+D:\Projects\3rd_integer\3rd_integer\obj\Release\3rd_integer.csprojAssemblyReference.cache
+D:\Projects\3rd_integer\3rd_integer\obj\Release\3rd_integer.csproj.CoreCompileInputs.cache
+D:\Projects\3rd_integer\3rd_integer\obj\Release\3rd_integer.exe
+D:\Projects\3rd_integer\3rd_integer\obj\Release\3rd_integer.pdb

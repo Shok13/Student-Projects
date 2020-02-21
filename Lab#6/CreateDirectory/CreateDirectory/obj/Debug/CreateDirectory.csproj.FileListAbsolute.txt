@@ -1,0 +1,7 @@
+D:\Projects\Lab#6\CreateDirectory\CreateDirectory\bin\Debug\CreateDirectory.exe.config
+D:\Projects\Lab#6\CreateDirectory\CreateDirectory\bin\Debug\CreateDirectory.exe
+D:\Projects\Lab#6\CreateDirectory\CreateDirectory\bin\Debug\CreateDirectory.pdb
+D:\Projects\Lab#6\CreateDirectory\CreateDirectory\obj\Debug\CreateDirectory.csprojAssemblyReference.cache
+D:\Projects\Lab#6\CreateDirectory\CreateDirectory\obj\Debug\CreateDirectory.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#6\CreateDirectory\CreateDirectory\obj\Debug\CreateDirectory.exe
+D:\Projects\Lab#6\CreateDirectory\CreateDirectory\obj\Debug\CreateDirectory.pdb

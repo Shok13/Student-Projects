@@ -1,0 +1,7 @@
+C:\Users\Андрей\source\repos\Four operations\Four operations\bin\Debug\Four operations.exe.config
+C:\Users\Андрей\source\repos\Four operations\Four operations\bin\Debug\Four operations.exe
+C:\Users\Андрей\source\repos\Four operations\Four operations\bin\Debug\Four operations.pdb
+C:\Users\Андрей\source\repos\Four operations\Four operations\obj\Debug\Four operations.csprojAssemblyReference.cache
+C:\Users\Андрей\source\repos\Four operations\Four operations\obj\Debug\Four operations.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\source\repos\Four operations\Four operations\obj\Debug\Four operations.exe
+C:\Users\Андрей\source\repos\Four operations\Four operations\obj\Debug\Four operations.pdb

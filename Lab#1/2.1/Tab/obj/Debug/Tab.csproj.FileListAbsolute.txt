@@ -1,0 +1,7 @@
+C:\Users\Андрей\source\repos\Tab\Tab\obj\Debug\Tab.csprojAssemblyReference.cache
+C:\Users\Андрей\source\repos\Tab\Tab\obj\Debug\Tab.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\source\repos\Tab\Tab\bin\Debug\Tab.exe.config
+C:\Users\Андрей\source\repos\Tab\Tab\bin\Debug\Tab.exe
+C:\Users\Андрей\source\repos\Tab\Tab\bin\Debug\Tab.pdb
+C:\Users\Андрей\source\repos\Tab\Tab\obj\Debug\Tab.exe
+C:\Users\Андрей\source\repos\Tab\Tab\obj\Debug\Tab.pdb

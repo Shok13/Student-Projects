@@ -1,0 +1,7 @@
+D:\Projects\Lab#5\Tab\Tab\bin\Release\Tab.exe.config
+D:\Projects\Lab#5\Tab\Tab\bin\Release\Tab.exe
+D:\Projects\Lab#5\Tab\Tab\bin\Release\Tab.pdb
+D:\Projects\Lab#5\Tab\Tab\obj\Release\Tab.csprojAssemblyReference.cache
+D:\Projects\Lab#5\Tab\Tab\obj\Release\Tab.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#5\Tab\Tab\obj\Release\Tab.exe
+D:\Projects\Lab#5\Tab\Tab\obj\Release\Tab.pdb

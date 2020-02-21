@@ -1,0 +1,7 @@
+D:\Projects\Two matrices 5x5\Two matrices 5x5\bin\Debug\Two matrices 5x5.exe.config
+D:\Projects\Two matrices 5x5\Two matrices 5x5\bin\Debug\Two matrices 5x5.exe
+D:\Projects\Two matrices 5x5\Two matrices 5x5\bin\Debug\Two matrices 5x5.pdb
+D:\Projects\Two matrices 5x5\Two matrices 5x5\obj\Debug\Two matrices 5x5.csprojAssemblyReference.cache
+D:\Projects\Two matrices 5x5\Two matrices 5x5\obj\Debug\Two matrices 5x5.csproj.CoreCompileInputs.cache
+D:\Projects\Two matrices 5x5\Two matrices 5x5\obj\Debug\Two matrices 5x5.exe
+D:\Projects\Two matrices 5x5\Two matrices 5x5\obj\Debug\Two matrices 5x5.pdb

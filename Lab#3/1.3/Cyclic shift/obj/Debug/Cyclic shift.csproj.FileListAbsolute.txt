@@ -1,0 +1,7 @@
+D:\Projects\Cyclic shift\Cyclic shift\bin\Debug\Cyclic shift.exe.config
+D:\Projects\Cyclic shift\Cyclic shift\bin\Debug\Cyclic shift.exe
+D:\Projects\Cyclic shift\Cyclic shift\bin\Debug\Cyclic shift.pdb
+D:\Projects\Cyclic shift\Cyclic shift\obj\Debug\Cyclic shift.csprojAssemblyReference.cache
+D:\Projects\Cyclic shift\Cyclic shift\obj\Debug\Cyclic shift.csproj.CoreCompileInputs.cache
+D:\Projects\Cyclic shift\Cyclic shift\obj\Debug\Cyclic shift.exe
+D:\Projects\Cyclic shift\Cyclic shift\obj\Debug\Cyclic shift.pdb

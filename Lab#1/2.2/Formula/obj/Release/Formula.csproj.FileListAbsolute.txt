@@ -1,0 +1,7 @@
+D:\Projects\Formula\Formula\bin\Release\Formula.exe.config
+D:\Projects\Formula\Formula\bin\Release\Formula.exe
+D:\Projects\Formula\Formula\bin\Release\Formula.pdb
+D:\Projects\Formula\Formula\obj\Release\Formula.csprojAssemblyReference.cache
+D:\Projects\Formula\Formula\obj\Release\Formula.csproj.CoreCompileInputs.cache
+D:\Projects\Formula\Formula\obj\Release\Formula.exe
+D:\Projects\Formula\Formula\obj\Release\Formula.pdb

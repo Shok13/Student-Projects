@@ -1,0 +1,7 @@
+D:\Projects\Lab#6\2_nd ind\2_nd ind\bin\Debug\2_nd ind.exe.config
+D:\Projects\Lab#6\2_nd ind\2_nd ind\bin\Debug\2_nd ind.exe
+D:\Projects\Lab#6\2_nd ind\2_nd ind\bin\Debug\2_nd ind.pdb
+D:\Projects\Lab#6\2_nd ind\2_nd ind\obj\Debug\2_nd ind.csprojAssemblyReference.cache
+D:\Projects\Lab#6\2_nd ind\2_nd ind\obj\Debug\2_nd ind.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#6\2_nd ind\2_nd ind\obj\Debug\2_nd ind.exe
+D:\Projects\Lab#6\2_nd ind\2_nd ind\obj\Debug\2_nd ind.pdb

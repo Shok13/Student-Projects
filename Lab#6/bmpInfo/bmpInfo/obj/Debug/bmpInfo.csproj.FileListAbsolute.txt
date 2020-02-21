@@ -1,0 +1,7 @@
+D:\Projects\Lab#6\bmpInfo\bmpInfo\bin\Debug\bmpInfo.exe.config
+D:\Projects\Lab#6\bmpInfo\bmpInfo\bin\Debug\bmpInfo.exe
+D:\Projects\Lab#6\bmpInfo\bmpInfo\bin\Debug\bmpInfo.pdb
+D:\Projects\Lab#6\bmpInfo\bmpInfo\obj\Debug\bmpInfo.csprojAssemblyReference.cache
+D:\Projects\Lab#6\bmpInfo\bmpInfo\obj\Debug\bmpInfo.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#6\bmpInfo\bmpInfo\obj\Debug\bmpInfo.exe
+D:\Projects\Lab#6\bmpInfo\bmpInfo\obj\Debug\bmpInfo.pdb

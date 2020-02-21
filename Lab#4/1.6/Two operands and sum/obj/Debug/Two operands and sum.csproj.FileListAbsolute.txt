@@ -1,0 +1,14 @@
+D:\Projects\Two operands and sum\Two operands and sum\bin\Debug\Two operands and sum.exe.config
+D:\Projects\Two operands and sum\Two operands and sum\bin\Debug\Two operands and sum.exe
+D:\Projects\Two operands and sum\Two operands and sum\bin\Debug\Two operands and sum.pdb
+D:\Projects\Two operands and sum\Two operands and sum\obj\Debug\Two operands and sum.csprojAssemblyReference.cache
+D:\Projects\Two operands and sum\Two operands and sum\obj\Debug\Two operands and sum.csproj.CoreCompileInputs.cache
+D:\Projects\Two operands and sum\Two operands and sum\obj\Debug\Two operands and sum.exe
+D:\Projects\Two operands and sum\Two operands and sum\obj\Debug\Two operands and sum.pdb
+D:\Projects\Lab#4\Two operands and sum\Two operands and sum\bin\Debug\Two operands and sum.exe.config
+D:\Projects\Lab#4\Two operands and sum\Two operands and sum\bin\Debug\Two operands and sum.exe
+D:\Projects\Lab#4\Two operands and sum\Two operands and sum\bin\Debug\Two operands and sum.pdb
+D:\Projects\Lab#4\Two operands and sum\Two operands and sum\obj\Debug\Two operands and sum.csprojAssemblyReference.cache
+D:\Projects\Lab#4\Two operands and sum\Two operands and sum\obj\Debug\Two operands and sum.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#4\Two operands and sum\Two operands and sum\obj\Debug\Two operands and sum.exe
+D:\Projects\Lab#4\Two operands and sum\Two operands and sum\obj\Debug\Two operands and sum.pdb

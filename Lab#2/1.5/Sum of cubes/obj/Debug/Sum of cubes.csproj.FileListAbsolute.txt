@@ -1,0 +1,14 @@
+D:\Projects\Sum of cubes\Sum of cubes\bin\Debug\Sum of cubes.exe.config
+D:\Projects\Sum of cubes\Sum of cubes\bin\Debug\Sum of cubes.exe
+D:\Projects\Sum of cubes\Sum of cubes\bin\Debug\Sum of cubes.pdb
+D:\Projects\Sum of cubes\Sum of cubes\obj\Debug\Sum of cubes.csprojAssemblyReference.cache
+D:\Projects\Sum of cubes\Sum of cubes\obj\Debug\Sum of cubes.csproj.CoreCompileInputs.cache
+D:\Projects\Sum of cubes\Sum of cubes\obj\Debug\Sum of cubes.exe
+D:\Projects\Sum of cubes\Sum of cubes\obj\Debug\Sum of cubes.pdb
+D:\Projects\Lab#2\1.5\Sum of cubes\bin\Debug\Sum of cubes.exe.config
+D:\Projects\Lab#2\1.5\Sum of cubes\bin\Debug\Sum of cubes.exe
+D:\Projects\Lab#2\1.5\Sum of cubes\bin\Debug\Sum of cubes.pdb
+D:\Projects\Lab#2\1.5\Sum of cubes\obj\Debug\Sum of cubes.csprojAssemblyReference.cache
+D:\Projects\Lab#2\1.5\Sum of cubes\obj\Debug\Sum of cubes.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#2\1.5\Sum of cubes\obj\Debug\Sum of cubes.exe
+D:\Projects\Lab#2\1.5\Sum of cubes\obj\Debug\Sum of cubes.pdb

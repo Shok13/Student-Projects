@@ -1,0 +1,7 @@
+D:\Projects\Lab#2\Quadratic Equation\Quadratic Equation\bin\Debug\Quadratic Equation.exe.config
+D:\Projects\Lab#2\Quadratic Equation\Quadratic Equation\bin\Debug\Quadratic Equation.exe
+D:\Projects\Lab#2\Quadratic Equation\Quadratic Equation\bin\Debug\Quadratic Equation.pdb
+D:\Projects\Lab#2\Quadratic Equation\Quadratic Equation\obj\Debug\Quadratic Equation.csprojAssemblyReference.cache
+D:\Projects\Lab#2\Quadratic Equation\Quadratic Equation\obj\Debug\Quadratic Equation.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#2\Quadratic Equation\Quadratic Equation\obj\Debug\Quadratic Equation.exe
+D:\Projects\Lab#2\Quadratic Equation\Quadratic Equation\obj\Debug\Quadratic Equation.pdb

@@ -1,0 +1,6 @@
+D:\Projects\Exchange\Exchange\bin\Debug\Exchange.exe.config
+D:\Projects\Exchange\Exchange\bin\Debug\Exchange.exe
+D:\Projects\Exchange\Exchange\bin\Debug\Exchange.pdb
+D:\Projects\Exchange\Exchange\obj\Debug\Exchange.csproj.CoreCompileInputs.cache
+D:\Projects\Exchange\Exchange\obj\Debug\Exchange.exe
+D:\Projects\Exchange\Exchange\obj\Debug\Exchange.pdb

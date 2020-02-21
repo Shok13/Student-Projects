@@ -1,0 +1,13 @@
+D:\Projects\Lab#5\Tab\Tab\obj\Debug\Tab.csprojAssemblyReference.cache
+D:\Projects\Lab#5\Tab\Tab\obj\Debug\Tab.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#5\Tab\Tab\bin\Debug\Tab.exe.config
+D:\Projects\Lab#5\Tab\Tab\bin\Debug\Tab.exe
+D:\Projects\Lab#5\Tab\Tab\bin\Debug\Tab.pdb
+D:\Projects\Lab#5\Tab\Tab\obj\Debug\Tab.exe
+D:\Projects\Lab#5\Tab\Tab\obj\Debug\Tab.pdb
+E:\Projects\Tab\Tab\bin\Debug\Tab.exe.config
+E:\Projects\Tab\Tab\bin\Debug\Tab.exe
+E:\Projects\Tab\Tab\bin\Debug\Tab.pdb
+E:\Projects\Tab\Tab\obj\Debug\Tab.csprojAssemblyReference.cache
+E:\Projects\Tab\Tab\obj\Debug\Tab.exe
+E:\Projects\Tab\Tab\obj\Debug\Tab.pdb

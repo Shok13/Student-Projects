@@ -1,0 +1,6 @@
+D:\Projects\Reverse\Reverse\bin\Debug\Reverse.exe.config
+D:\Projects\Reverse\Reverse\bin\Debug\Reverse.exe
+D:\Projects\Reverse\Reverse\bin\Debug\Reverse.pdb
+D:\Projects\Reverse\Reverse\obj\Debug\Reverse.csproj.CoreCompileInputs.cache
+D:\Projects\Reverse\Reverse\obj\Debug\Reverse.exe
+D:\Projects\Reverse\Reverse\obj\Debug\Reverse.pdb

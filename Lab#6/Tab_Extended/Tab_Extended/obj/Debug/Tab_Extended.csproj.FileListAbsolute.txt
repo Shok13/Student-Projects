@@ -1,0 +1,7 @@
+D:\Projects\Lab#6\Tab_Extended\Tab_Extended\bin\Debug\Tab_Extended.exe.config
+D:\Projects\Lab#6\Tab_Extended\Tab_Extended\bin\Debug\Tab_Extended.exe
+D:\Projects\Lab#6\Tab_Extended\Tab_Extended\bin\Debug\Tab_Extended.pdb
+D:\Projects\Lab#6\Tab_Extended\Tab_Extended\obj\Debug\Tab_Extended.csprojAssemblyReference.cache
+D:\Projects\Lab#6\Tab_Extended\Tab_Extended\obj\Debug\Tab_Extended.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#6\Tab_Extended\Tab_Extended\obj\Debug\Tab_Extended.exe
+D:\Projects\Lab#6\Tab_Extended\Tab_Extended\obj\Debug\Tab_Extended.pdb

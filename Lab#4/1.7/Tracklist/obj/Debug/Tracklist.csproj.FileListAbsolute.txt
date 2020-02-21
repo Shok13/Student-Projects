@@ -1,0 +1,7 @@
+D:\Projects\Lab#4\Tracklist\Tracklist\obj\Debug\Tracklist.csprojAssemblyReference.cache
+D:\Projects\Lab#4\Tracklist\Tracklist\obj\Debug\Tracklist.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#4\Tracklist\Tracklist\bin\Debug\Tracklist.exe.config
+D:\Projects\Lab#4\Tracklist\Tracklist\bin\Debug\Tracklist.exe
+D:\Projects\Lab#4\Tracklist\Tracklist\bin\Debug\Tracklist.pdb
+D:\Projects\Lab#4\Tracklist\Tracklist\obj\Debug\Tracklist.exe
+D:\Projects\Lab#4\Tracklist\Tracklist\obj\Debug\Tracklist.pdb

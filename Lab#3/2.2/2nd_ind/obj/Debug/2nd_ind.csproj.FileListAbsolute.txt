@@ -1,0 +1,7 @@
+D:\Projects\2nd_ind\2nd_ind\bin\Debug\2nd_ind.exe.config
+D:\Projects\2nd_ind\2nd_ind\bin\Debug\2nd_ind.exe
+D:\Projects\2nd_ind\2nd_ind\bin\Debug\2nd_ind.pdb
+D:\Projects\2nd_ind\2nd_ind\obj\Debug\2nd_ind.csprojAssemblyReference.cache
+D:\Projects\2nd_ind\2nd_ind\obj\Debug\2nd_ind.csproj.CoreCompileInputs.cache
+D:\Projects\2nd_ind\2nd_ind\obj\Debug\2nd_ind.exe
+D:\Projects\2nd_ind\2nd_ind\obj\Debug\2nd_ind.pdb

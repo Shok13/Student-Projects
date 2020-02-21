@@ -1,0 +1,13 @@
+C:\Users\Андрей\source\repos\Line\Line\bin\Release\Line.exe.config
+C:\Users\Андрей\source\repos\Line\Line\bin\Release\Line.exe
+C:\Users\Андрей\source\repos\Line\Line\bin\Release\Line.pdb
+C:\Users\Андрей\source\repos\Line\Line\obj\Release\Line.csprojAssemblyReference.cache
+C:\Users\Андрей\source\repos\Line\Line\obj\Release\Line.exe
+C:\Users\Андрей\source\repos\Line\Line\obj\Release\Line.pdb
+D:\Projects\Lab#2\Line\Line\bin\Release\Line.exe.config
+D:\Projects\Lab#2\Line\Line\bin\Release\Line.exe
+D:\Projects\Lab#2\Line\Line\bin\Release\Line.pdb
+D:\Projects\Lab#2\Line\Line\obj\Release\Line.csprojAssemblyReference.cache
+D:\Projects\Lab#2\Line\Line\obj\Release\Line.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#2\Line\Line\obj\Release\Line.exe
+D:\Projects\Lab#2\Line\Line\obj\Release\Line.pdb

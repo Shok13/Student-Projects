@@ -1,0 +1,7 @@
+D:\Projects\Multiplication\Multiplication\bin\Release\Multiplication.exe.config
+D:\Projects\Multiplication\Multiplication\bin\Release\Multiplication.exe
+D:\Projects\Multiplication\Multiplication\bin\Release\Multiplication.pdb
+D:\Projects\Multiplication\Multiplication\obj\Release\Multiplication.csprojAssemblyReference.cache
+D:\Projects\Multiplication\Multiplication\obj\Release\Multiplication.csproj.CoreCompileInputs.cache
+D:\Projects\Multiplication\Multiplication\obj\Release\Multiplication.exe
+D:\Projects\Multiplication\Multiplication\obj\Release\Multiplication.pdb

@@ -1,0 +1,7 @@
+D:\Projects\Int_hours\Int_hours\bin\Release\Int_hours.exe.config
+D:\Projects\Int_hours\Int_hours\bin\Release\Int_hours.exe
+D:\Projects\Int_hours\Int_hours\bin\Release\Int_hours.pdb
+D:\Projects\Int_hours\Int_hours\obj\Release\Int_hours.csproj.CoreCompileInputs.cache
+D:\Projects\Int_hours\Int_hours\obj\Release\Int_hours.exe
+D:\Projects\Int_hours\Int_hours\obj\Release\Int_hours.pdb
+D:\Projects\Int_hours\Int_hours\obj\Release\Int_hours.csprojAssemblyReference.cache

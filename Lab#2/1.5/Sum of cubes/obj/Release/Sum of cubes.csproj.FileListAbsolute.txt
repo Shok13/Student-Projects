@@ -1,0 +1,7 @@
+D:\Projects\Lab#2\1.5\Sum of cubes\bin\Release\Sum of cubes.exe.config
+D:\Projects\Lab#2\1.5\Sum of cubes\bin\Release\Sum of cubes.exe
+D:\Projects\Lab#2\1.5\Sum of cubes\bin\Release\Sum of cubes.pdb
+D:\Projects\Lab#2\1.5\Sum of cubes\obj\Release\Sum of cubes.csprojAssemblyReference.cache
+D:\Projects\Lab#2\1.5\Sum of cubes\obj\Release\Sum of cubes.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#2\1.5\Sum of cubes\obj\Release\Sum of cubes.exe
+D:\Projects\Lab#2\1.5\Sum of cubes\obj\Release\Sum of cubes.pdb

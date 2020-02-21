@@ -1,0 +1,7 @@
+D:\Projects\Lab#2\Pi\Pi\bin\Release\Pi.exe.config
+D:\Projects\Lab#2\Pi\Pi\bin\Release\Pi.exe
+D:\Projects\Lab#2\Pi\Pi\bin\Release\Pi.pdb
+D:\Projects\Lab#2\Pi\Pi\obj\Release\Pi.csprojAssemblyReference.cache
+D:\Projects\Lab#2\Pi\Pi\obj\Release\Pi.csproj.CoreCompileInputs.cache
+D:\Projects\Lab#2\Pi\Pi\obj\Release\Pi.exe
+D:\Projects\Lab#2\Pi\Pi\obj\Release\Pi.pdb

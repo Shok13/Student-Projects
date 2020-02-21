@@ -1,0 +1,7 @@
+D:\Projects\4 functions\4 functions\bin\Debug\4 functions.exe.config
+D:\Projects\4 functions\4 functions\bin\Debug\4 functions.exe
+D:\Projects\4 functions\4 functions\bin\Debug\4 functions.pdb
+D:\Projects\4 functions\4 functions\obj\Debug\4 functions.csprojAssemblyReference.cache
+D:\Projects\4 functions\4 functions\obj\Debug\4 functions.csproj.CoreCompileInputs.cache
+D:\Projects\4 functions\4 functions\obj\Debug\4 functions.exe
+D:\Projects\4 functions\4 functions\obj\Debug\4 functions.pdb

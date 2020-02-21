@@ -1,0 +1,7 @@
+D:\Projects\3x3\3x3\bin\Debug\3x3.exe.config
+D:\Projects\3x3\3x3\bin\Debug\3x3.exe
+D:\Projects\3x3\3x3\bin\Debug\3x3.pdb
+D:\Projects\3x3\3x3\obj\Debug\3x3.csprojAssemblyReference.cache
+D:\Projects\3x3\3x3\obj\Debug\3x3.csproj.CoreCompileInputs.cache
+D:\Projects\3x3\3x3\obj\Debug\3x3.exe
+D:\Projects\3x3\3x3\obj\Debug\3x3.pdb

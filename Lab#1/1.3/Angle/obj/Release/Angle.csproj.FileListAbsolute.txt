@@ -1,0 +1,7 @@
+D:\Projects\Angle\Angle\bin\Release\Angle.exe.config
+D:\Projects\Angle\Angle\bin\Release\Angle.exe
+D:\Projects\Angle\Angle\bin\Release\Angle.pdb
+D:\Projects\Angle\Angle\obj\Release\Angle.csprojAssemblyReference.cache
+D:\Projects\Angle\Angle\obj\Release\Angle.csproj.CoreCompileInputs.cache
+D:\Projects\Angle\Angle\obj\Release\Angle.exe
+D:\Projects\Angle\Angle\obj\Release\Angle.pdb

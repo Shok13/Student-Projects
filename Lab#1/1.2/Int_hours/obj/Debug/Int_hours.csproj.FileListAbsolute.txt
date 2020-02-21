@@ -1,0 +1,6 @@
+D:\Projects\Int_hours\Int_hours\bin\Debug\Int_hours.exe.config
+D:\Projects\Int_hours\Int_hours\bin\Debug\Int_hours.exe
+D:\Projects\Int_hours\Int_hours\bin\Debug\Int_hours.pdb
+D:\Projects\Int_hours\Int_hours\obj\Debug\Int_hours.csproj.CoreCompileInputs.cache
+D:\Projects\Int_hours\Int_hours\obj\Debug\Int_hours.exe
+D:\Projects\Int_hours\Int_hours\obj\Debug\Int_hours.pdb
