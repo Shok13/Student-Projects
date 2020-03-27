@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace SortingMethods
@@ -14,7 +15,7 @@ namespace SortingMethods
         static void SelectionSort(ref int[] array, int left, int right)
         {
             long numberOfComparisons = 0;
-            int numberOfPermutations = 0;
+            long numberOfPermutations = 0;
             var start = DateTime.Now;
             for (int i = left; i < right; i++)
             {
@@ -39,7 +40,7 @@ namespace SortingMethods
         static void InsertionSort(ref int[] array, int left, int right)
         {
             long numberOfComparisons = 0;
-            int numberOfPermutations = 0;
+            long numberOfPermutations = 0;
             var start = DateTime.Now;
 
             for (int i = left + 1; i <= right; i++)
@@ -66,8 +67,9 @@ namespace SortingMethods
         static void BubbleSort(ref int[] array, int left, int right)
         {
             long numberOfComparisons = 0;
-            int numberOfPermutations = 0;
+            long numberOfPermutations = 0;
             var start = DateTime.Now;
+            var wasPermutation = false;
 
             for (int i = left; i < right; i++)
             {
@@ -78,7 +80,12 @@ namespace SortingMethods
                     {
                         numberOfPermutations++;
                         Swap(ref array[j - 1], ref array[j]);
+                        wasPermutation = true;
                     }
+                }
+                if (!wasPermutation)
+                {
+                    break;
                 }
             }
 
@@ -129,12 +136,32 @@ namespace SortingMethods
         static void ShellSort(ref int[] array, int left, int right)
         {
             long numberOfComparisons = 0;
-            int numberOfPermutations = 0;
+            long numberOfPermutations = 0;
+            var numbers = new List<int>();
+            int length = array.Length;
+            for (int i = 0; i < length; i++)
+            {
+                for (int j = 0; j < length; j++)
+                {
+                    double x = Math.Pow(2, i) * Math.Pow(3, j);
+                    if (x < length / 2)
+                    {
+                        numbers.Add((int)x);   
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                if ((int)Math.Pow(2, i) > length/2)
+                {
+                    break;
+                }
+            }
+            int[] H = numbers.ToArray();
+            Array.Sort(H);
+            Array.Reverse(H);
             var start = DateTime.Now;
-
-            int[] H = { 57, 23, 10, 4, 1 };
-            int HN = H.Length;
-
             foreach (int step in H)
             {
                 for (int i = left + step; i <= right; i++)
@@ -145,6 +172,7 @@ namespace SortingMethods
                     while (j >= left + step && tmp < array[j - step])
                     {
                         numberOfComparisons++;
+                        numberOfPermutations++;
                         array[j] = array[j - step];
                         j -= step;
                     }
@@ -171,31 +199,88 @@ namespace SortingMethods
             {
                 foreach (int x in array)
                 {
-                    sw.Write(x+" ");
+                    sw.Write(x + " ");
                 }
                 sw.WriteLine();
             }
         }
-        static void CheckArray(int[] array)
+        static void CheckSortedArray(int[] array)
         {
-
-            foreach (int x in array)
+            int left = 0;
+            int right = array.Length - 1;
+            var numbers = new List<int>();
+            int length = array.Length;
+            for (int i = 0; i < length; i++)
             {
-                Console.Write($"{x},");
+                for (int j = 0; j < length; j++)
+                {
+                    double x = Math.Pow(2, i) * Math.Pow(3, j);
+                    if (x < length / 2)
+                    {
+                        numbers.Add((int)x);
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                if ((int)Math.Pow(2, i) > length / 2)
+                {
+                    break;
+                }
             }
-            Console.WriteLine();
-            Console.WriteLine();
-        }
+            int[] H = numbers.ToArray();
+            Array.Sort(H);
+            Array.Reverse(H);
+            bool isSorted = true;
+            foreach (int step in H)
+            {
+                for (int i = left + step; i <= right; i++)
+                {
+                    int j = i;
+                    int tmp = array[i];
 
+                    while (j >= left + step && tmp < array[j - step])
+                    {
+                        isSorted = false;
+                        break;
+                    }
+                    if (!isSorted)
+                    {
+                        Console.WriteLine("Массив не отсортирован");
+                        break;
+                    }
+                    array[j] = tmp;
+                }
+                if (!isSorted)
+                {
+                    Console.WriteLine("Массив не отсортирован");
+                    break;
+                }
+            }
+            if (isSorted)
+            {
+                Console.WriteLine("Массив отсортирован");
+            }
+        }
+        static int[] ConvertArray(string[] array)
+        {
+            var outArray = new int[array.Length];
+            for (int i = 0; i < array.Length; i++)
+            {
+                outArray[i] = Convert.ToInt32(array[i]);
+            }
+            return outArray;
+        }
 
         static void Main(string[] args)
         {
             string path = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory().ToString()).ToString()).ToString()).ToString() + "\\sorted.dat";
             if (File.Exists(path))
             {
-                File.Delete(path);
+                File.Delete(path); 
             }
-            var arrayLength = 40000;
+            var arrayLength = 100000;
             var randomArray = new int[arrayLength];
             var arrayToSort = new int[arrayLength];
             var rnd = new Random();
@@ -259,7 +344,6 @@ namespace SortingMethods
             ShellSort(ref arrayToSort, 0, arrayToSort.Length - 1);
             #endregion
 
-
             Array.Copy(randomArray, arrayToSort, randomArray.Length);
             #region ShakerSort
             Console.WriteLine("Сортировка шейкером массива, заполненного случайными числами");
@@ -271,6 +355,16 @@ namespace SortingMethods
             Array.Reverse(arrayToSort);
             Console.WriteLine("Сортировка шейкером массива, заполненного числами в порядке убывания");
             ShakerSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            #endregion
+
+            #region CheckArray
+            using (var sr = new StreamReader(path))
+            {
+                while (sr.Peek() != -1)
+                {
+                    CheckSortedArray(ConvertArray(sr.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)));
+                }
+            }
             #endregion
         }
     }
