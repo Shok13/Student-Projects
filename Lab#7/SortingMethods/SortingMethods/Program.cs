@@ -168,11 +168,10 @@ namespace SortingMethods
                 {
                     int j = i;
                     int tmp = array[i];
-
+                    numberOfComparisons++;
                     while (j >= left + step && tmp < array[j - step])
                     {
                         numberOfComparisons++;
-                        numberOfPermutations++;
                         array[j] = array[j - step];
                         j -= step;
                     }
@@ -289,46 +288,46 @@ namespace SortingMethods
                 randomArray[i] = rnd.Next(1000);
             }
 
-            Array.Copy(randomArray, arrayToSort, randomArray.Length);
-            #region SelectionSort
-            Console.WriteLine("Сортировка выбором массива, заполненного случайными числами");
-            SelectionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //Array.Copy(randomArray, arrayToSort, randomArray.Length);
+            //#region SelectionSort
+            //Console.WriteLine("Сортировка выбором массива, заполненного случайными числами");
+            //SelectionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
 
-            Console.WriteLine("Сортировка выбором массива, заполненного числами в порядке возрастания");
-            SelectionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //Console.WriteLine("Сортировка выбором массива, заполненного числами в порядке возрастания");
+            //SelectionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
 
-            Array.Reverse(arrayToSort);
-            Console.WriteLine("Сортировка выбором массива, заполненного числами в порядке убывания");
-            SelectionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
-            #endregion
-
-
-            Array.Copy(randomArray, arrayToSort, randomArray.Length);
-            #region InsertionSort
-            Console.WriteLine("Сортировка вставками массива, заполненного случайными числами");
-            InsertionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
-
-            Console.WriteLine("Сортировка вставками массива, заполненного числами в порядке возрастания");
-            InsertionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
-
-            Array.Reverse(arrayToSort);
-            Console.WriteLine("Сортировка вставками массива, заполненного числами в порядке убывания");
-            InsertionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
-            #endregion
+            //Array.Reverse(arrayToSort);
+            //Console.WriteLine("Сортировка выбором массива, заполненного числами в порядке убывания");
+            //SelectionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //#endregion
 
 
-            Array.Copy(randomArray, arrayToSort, randomArray.Length);
-            #region BubbleSort
-            Console.WriteLine("Сортировка пузырьком массива, заполненного случайными числами");
-            BubbleSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //Array.Copy(randomArray, arrayToSort, randomArray.Length);
+            //#region InsertionSort
+            //Console.WriteLine("Сортировка вставками массива, заполненного случайными числами");
+            //InsertionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
 
-            Console.WriteLine("Сортировка пузырьком массива, заполненного числами в порядке возрастания");
-            BubbleSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //Console.WriteLine("Сортировка вставками массива, заполненного числами в порядке возрастания");
+            //InsertionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
 
-            Array.Reverse(arrayToSort);
-            Console.WriteLine("Сортировка пузырьком массива, заполненного числами в порядке убывания");
-            BubbleSort(ref arrayToSort, 0, arrayToSort.Length - 1);
-            #endregion
+            //Array.Reverse(arrayToSort);
+            //Console.WriteLine("Сортировка вставками массива, заполненного числами в порядке убывания");
+            //InsertionSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //#endregion
+
+
+            //Array.Copy(randomArray, arrayToSort, randomArray.Length);
+            //#region BubbleSort
+            //Console.WriteLine("Сортировка пузырьком массива, заполненного случайными числами");
+            //BubbleSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+
+            //Console.WriteLine("Сортировка пузырьком массива, заполненного числами в порядке возрастания");
+            //BubbleSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+
+            //Array.Reverse(arrayToSort);
+            //Console.WriteLine("Сортировка пузырьком массива, заполненного числами в порядке убывания");
+            //BubbleSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //#endregion
 
 
             Array.Copy(randomArray, arrayToSort, randomArray.Length);
@@ -344,18 +343,18 @@ namespace SortingMethods
             ShellSort(ref arrayToSort, 0, arrayToSort.Length - 1);
             #endregion
 
-            Array.Copy(randomArray, arrayToSort, randomArray.Length);
-            #region ShakerSort
-            Console.WriteLine("Сортировка шейкером массива, заполненного случайными числами");
-            ShakerSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //Array.Copy(randomArray, arrayToSort, randomArray.Length);
+            //#region ShakerSort
+            //Console.WriteLine("Сортировка шейкером массива, заполненного случайными числами");
+            //ShakerSort(ref arrayToSort, 0, arrayToSort.Length - 1);
 
-            Console.WriteLine("Сортировка шейкером массива, заполненного числами в порядке возрастания");
-            ShakerSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //Console.WriteLine("Сортировка шейкером массива, заполненного числами в порядке возрастания");
+            //ShakerSort(ref arrayToSort, 0, arrayToSort.Length - 1);
 
-            Array.Reverse(arrayToSort);
-            Console.WriteLine("Сортировка шейкером массива, заполненного числами в порядке убывания");
-            ShakerSort(ref arrayToSort, 0, arrayToSort.Length - 1);
-            #endregion
+            //Array.Reverse(arrayToSort);
+            //Console.WriteLine("Сортировка шейкером массива, заполненного числами в порядке убывания");
+            //ShakerSort(ref arrayToSort, 0, arrayToSort.Length - 1);
+            //#endregion
 
             #region CheckArray
             using (var sr = new StreamReader(path))
