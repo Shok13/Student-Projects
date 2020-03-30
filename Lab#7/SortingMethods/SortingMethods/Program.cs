@@ -168,10 +168,11 @@ namespace SortingMethods
                 {
                     int j = i;
                     int tmp = array[i];
-                    numberOfComparisons++;
+
                     while (j >= left + step && tmp < array[j - step])
                     {
                         numberOfComparisons++;
+                        numberOfPermutations++;
                         array[j] = array[j - step];
                         j -= step;
                     }
