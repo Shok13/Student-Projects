@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tab_Sort
 {
@@ -19,6 +15,12 @@ namespace Tab_Sort
             public DateTime time;
             public Action action;
             public string name;
+            public Log_(DateTime t, Action a, string name)
+            {
+                time = t;
+                action = a;
+                this.name = name;
+            }
 
             public void WriteLine()
             {
@@ -36,32 +38,30 @@ namespace Tab_Sort
                 }
             }
         }
-        public static void ShowLog(Log.Log_[] logs, TimeSpan idle_time)
+        public static void ShowLog(DoubleLinkedList<Log_> logs, TimeSpan idle_time)
         {
-            for (int i = 0; i < logs.Length; i++)
+            for (int i = 0; i < logs.Count(); i++)
             {
-                if (logs[i].name != null)
+                var log = logs.GetT(i);
+                if (log.name != null)
                 {
-                    logs[i].WriteLine();
+                    log.WriteLine();
                 }
             }
             Console.WriteLine($"\n{idle_time.Hours:00}:{idle_time.Minutes:00}:{idle_time.Seconds:00} - Самый долгий период бездействия пользователя");
         }
-        public static void AddLog(ref Log.Log_[] logs, DateTime time, Log.Action action, string name, ref int cnt)
+        public static void CalcMaxIdleTime(DateTime dt1, TimeSpan old_idle_time, out TimeSpan idle_time)
         {
-            if (cnt > 49)
+            DateTime dt2 = DateTime.Now;
+            TimeSpan time = dt2 - dt1;
+            if (time > old_idle_time)
             {
-                for (int i = 0; i < logs.Length - 1; i++)
-                {
-                    logs[i] = logs[i + 1];
-                }
-                cnt = 49;
+                idle_time = time;
             }
-            logs[cnt].time = time;
-            logs[cnt].action = action;
-            logs[cnt].name = name;
-
-            cnt++;
+            else
+            {
+                idle_time = old_idle_time;
+            }
         }
     }
 }

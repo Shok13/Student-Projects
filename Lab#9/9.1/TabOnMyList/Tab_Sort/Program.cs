@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Windows.Input;
-using System.Windows.Markup;
 using System.IO;
 using Tab_Sort;
 
@@ -31,16 +29,9 @@ namespace Tab
         static void Main(string[] args)
         {
             string path = Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory().ToString()).ToString()).ToString() + "\\lab.dat";
-            Product.Product_[] products = new Product.Product_[3];
-            Log.Log_[] logs = new Log.Log_[50];
-    
-            products[0] = new Product.Product_("Папка", Product.ProductType.К, 4.75m, 400);
-            products[1] = new Product.Product_("Бумага А4(пачка)", Product.ProductType.К, 45.90m, 100);
-            products[2] = new Product.Product_("Калькулятор", Product.ProductType.О, 411m, 10);
-
-            Product.Product_.ReadInfo(ref products, path);
-
-            int cnt = 0;
+            DoubleLinkedList<Product.Product_> products = new DoubleLinkedList<Product.Product_>();
+            DoubleLinkedList<Log.Log_> logs = new DoubleLinkedList<Log.Log_>();
+            Product.Product_.ReadInfo(products, path);
 
             int select = 0;
             bool exit = false;
@@ -52,62 +43,62 @@ namespace Tab
                 {
                     case Show_Tab:
                         Product.ShowTab(products);
-                        Product.CalcMaxIdleTime(time, idle_time, out idle_time);
+                        Log.CalcMaxIdleTime(time, idle_time, out idle_time);
                         time = DateTime.Now;
                         ShowMenu();
                         select = Product.SetNumber(Show_Tab, Exit);
                         break;
                     case Add_Note:
-                        Product.AddNote(ref products, ref logs, ref cnt);
-                        Product.CalcMaxIdleTime(time, idle_time, out idle_time);
+                        Product.AddNote(products, logs);
+                        Log.CalcMaxIdleTime(time, idle_time, out idle_time);
                         time = DateTime.Now;
                         ShowMenu();
                         select = Product.SetNumber(Show_Tab, Exit);
                         break;
                     case Delete_Note:
-                        Product.DeleteNote(ref products, ref logs, ref cnt);
-                        Product.CalcMaxIdleTime(time, idle_time, out idle_time);
+                        Product.DeleteNote(products, logs);
+                        Log.CalcMaxIdleTime(time, idle_time, out idle_time);
                         time = DateTime.Now;
                         ShowMenu();
                         select = Product.SetNumber(Show_Tab, Exit);
                         break;
                     case Update_Note:
-                        Product.UpdateNote(ref products, ref logs, ref cnt);
-                        Product.CalcMaxIdleTime(time, idle_time, out idle_time);
+                        Product.UpdateNote(products, logs);
+                        Log.CalcMaxIdleTime(time, idle_time, out idle_time);
                         time = DateTime.Now;
                         ShowMenu();
                         select = Product.SetNumber(Show_Tab, Exit);
                         break;
                     case Search_Notes:
                         Product.SearchNotes(products);
-                        Product.CalcMaxIdleTime(time, idle_time, out idle_time);
+                        Log.CalcMaxIdleTime(time, idle_time, out idle_time);
                         time = DateTime.Now;
                         ShowMenu();
                         select = Product.SetNumber(Show_Tab, Exit);
                         break;
                     case Show_Log:
                         Console.Clear();
-                        Product.CalcMaxIdleTime(time, idle_time, out idle_time);
+                        Log.CalcMaxIdleTime(time, idle_time, out idle_time);
                         time = DateTime.Now;
                         Log.ShowLog(logs, idle_time);
                         ShowMenu();
                         select = Product.SetNumber(Show_Tab, Exit);
                         break;
                     case Sort_:
-                        Product.Sort(products, 0, products.Length - 1);
+                        Product.Sort(products, 0, products.Count() - 1);
                         Console.WriteLine("Сортировка завершена.");
-                        Product.CalcMaxIdleTime(time, idle_time, out idle_time);
+                        Log.CalcMaxIdleTime(time, idle_time, out idle_time);
                         time = DateTime.Now;
                         ShowMenu();
                         select = Product.SetNumber(Show_Tab, Exit);
                         break;
                     case Exit:
-                        products[0].WriteInfo(products.Length, path, products);
+                        products.GetT(0).WriteInfo(path, products);
                         exit = true;
                         break;
                     default:
                         time = DateTime.Now;
-                        Product.CalcMaxIdleTime(time, idle_time, out idle_time);
+                        Log.CalcMaxIdleTime(time, idle_time, out idle_time);
                         time = DateTime.Now;
                         ShowMenu();
                         select = Product.SetNumber(Show_Tab, Exit);
